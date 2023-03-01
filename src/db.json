@@ -1,1 +1,1 @@
-[{"username":"usuario1@gmail.com","password":"Usuario1","favorites":[]},{"username":"mresnicoff@gmail.com","password":"Tincho12","favorites":[]},{"username":"Pepe@pepe.com","password":"Pepe12","favorites":[{"id":10,"name":"Alan Rails","image":"https://rickandmortyapi.com/api/character/avatar/10.jpeg","species":"Human","gender":"Male","user":"Pepe@pepe.com"}]}]
+[{"username":"usuario1@gmail.com","password":"Usuario1","favorites":[]}]
