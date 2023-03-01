@@ -7,6 +7,7 @@ const { postFavorites } = require("../controllers/deleteFavorite.js");
 const { deleteFavorite } = require("../controllers/deleteFavorite.js");
 const { validateMyUser } = require("../controllers/validateUser.js");
 const { signupUsers } = require("../controllers/validateUser.js");
+const { saludo } = require("../controllers/validateUser.js");
 
 const router = Router();
 
@@ -17,5 +18,6 @@ router.get("/fav", getFavorites);
 router.post("/users", validateMyUser);
 router.post("/newusers", signupUsers);
 router.delete("/fav", deleteFavorite);
+router.get("/", saludo);
 
 module.exports = { router };

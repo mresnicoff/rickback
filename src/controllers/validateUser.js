@@ -57,6 +57,10 @@ const signupUsers = (req, res) => {
     return res.status(200).json({ usename: "" });
   });
 };
+const saludo = (req, res) => {
+  return res.status(200).json({ hola: "hola" });
+};
 
 exports.validateMyUser = validateMyUser;
 exports.signupUsers = signupUsers;
+exports.saludo = saludo;
